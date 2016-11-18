@@ -1,0 +1,4 @@
+*.json
+*.lock
+vendor
+data
