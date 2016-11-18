@@ -7,8 +7,6 @@
 依赖以下组件，安装方法请参考官方文档。
 
 - xdebug
-- phpunit
-- phpcov
 - composer
 
 ## 使用说明
