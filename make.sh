@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == "report" ]; then
-    php ./vendor/bin/phpcov merge --html="./html" ./data -vvv
+    ./vendor/bin/phpcov merge --html="./html" ./data -vvv
     exit 0
 fi
 
