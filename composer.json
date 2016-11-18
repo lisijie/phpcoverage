@@ -1,0 +1,13 @@
+{
+    "name": "jesse/phpcoverage",
+    "authors": [
+        {
+            "name": "sijie.li",
+            "email": "lsj86@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~4.8",
+        "phpunit/phpcov": "*"
+    }
+}
