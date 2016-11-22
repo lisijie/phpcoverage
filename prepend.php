@@ -2,7 +2,10 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 $filter = new PHP_CodeCoverage_Filter;
-// $filter->addDirectoryToWhitelist('xxx');#添加文件夹白名单
+// 添加文件夹白名单，一般设为应用的业务代码目录，不设置则统计所有文件
+$filter->addDirectoryToWhitelist('application/controllers');
+$filter->addDirectoryToWhitelist('application/services');
+$filter->addDirectoryToWhitelist('application/models');
 // 初始化覆盖率工具
 $coverage = new PHP_CodeCoverage(new PHP_CodeCoverage_Driver_Xdebug, $filter);
 // 开始统计
